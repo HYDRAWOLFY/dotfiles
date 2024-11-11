@@ -62,7 +62,7 @@ mv kitty ~/.config/
 ```bash
 mkdir -p ~/.local/share/rofi/themes
 ```
-# Move the themes folder
+#### Move the themes folder
 ```bash
 mv rofi/themes/* ~/.local/share/rofi/themes/
 ```
