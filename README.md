@@ -6,6 +6,7 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 - **File Manager**: Thunar/Ranger
 - **Application Launcher**: Rofi
 - **Top Bar**: Polybar
+- **Terminal**: Kitty
 
 ---
 
