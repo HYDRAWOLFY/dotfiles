@@ -14,10 +14,10 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 Here are some screenshots showcasing my setup:
 
 ### Terminal with System Info (Neofetch)
-![Terminal Preview](./2024-11-11_20-37.png)
+![Terminal Preview](./term.png)
 
 ### Tiled Window Layout with Picom Shadows and Htop
-![Tiling Preview](./2024-11-11_20-44.png)
+![Tiling Preview](./tiled.png)
 
 ---
 
