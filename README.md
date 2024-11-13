@@ -18,6 +18,15 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 
 ---
 
+## ➕Dipendencies
+
+- **Jet Brains Mono Nerd Font**
+- **Kitty Terminal**
+- **Rofi**
+- **Polybar**
+
+---
+
 ## 🗂️ Directory Structure
 
 ```plaintext
@@ -59,10 +68,6 @@ mv kitty ~/.config/
 ### Step 3: Move Rofi Themes
 
 
-#### Create the destination directory if it doesn't exist
-```bash
-mkdir -p ~/.local/share/rofi/themes
-```
 #### Move the themes folder
 ```bash
 mv rofi/themes/* ~/.local/share/rofi/themes/
@@ -70,10 +75,10 @@ mv rofi/themes/* ~/.local/share/rofi/themes/
 
 # 📝 Customizations
 
-- BSPWM: Contains window rules, gaps, and keybindings. 
-- Picom: Custom settings for blur, shadows, and animations,also includes a custom config tuned for performance but also maintaining aesthetics 
+- BSPWM: Contains window rules, gaps, and keybindings.(the config is kinda messy though). 
+- Picom: Custom settings for blur, shadows, and animations,also includes a custom config tuned for performance while not sacrificing on the aesthetics sector.
 
-- Polybar: Status bar configuration for system monitoring and workspace management.
+- Polybar: Status bar configuration for system monitoring and workspace management(very minimal).
 
 - Rofi: Custom themes and configurations to match the desktop aesthetic.
 
