@@ -17,7 +17,6 @@ picom --config  /home/user/.config/picom/picom.conf &
 nitrogen --restore 
 #dunst &
 polybar --config /home/user/.config/polybar/config.ini &
-
 #These are custom configs based on my needs,feel free to change.
 
 $HOME/.config/polybar/launch.sh
@@ -27,6 +26,12 @@ pkill ibus-daemon
 bspc config focused_border_color "#d4cbef"
 
 bspc rule -a Spotube state=tiled
+
+bspc rule -a kitty state=floating
+
+bspc rule -a TelegramDesktop state=floating
+
+bspc rule -a Gnome-calculator state=floating
 
 export FILE_MANAGER=thunar
 

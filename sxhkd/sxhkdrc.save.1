@@ -7,13 +7,8 @@ super + Return
 	kitty
 
 # program launcher
-#alt + @space
-#	dmenu_run
-
 alt + @space
-        rofi -show drun -modi drun,run
-
-#for returning back: rofi -show drun -show-icons -modi drun,run
+	dmenu_run
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -40,7 +35,7 @@ super + y
 	bspc node newest.marked.local -n newest.!automatic.local
 
 # swap the current node and the biggest window
-super + g
+2;10usuper + g
 	bspc node -s biggest.window
 
 #

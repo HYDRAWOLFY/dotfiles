@@ -52,7 +52,7 @@ use-damage = false;
 #################################
 
 # Enabled client-side shadows on windows.
-shadow = false;
+shadow = true;
 
 
 # The blur radius for shadows. (default 12)
@@ -223,7 +223,7 @@ opacity-exclude = [
 #
 #################################
 
-fading = false;
+fading = true;
 # fade-delta = 30;
 #fade-in-step = 0.03;
 #fade-out-step = 0.03;
