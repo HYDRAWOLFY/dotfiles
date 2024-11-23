@@ -78,19 +78,4 @@ mv kitty ~/.config/
 ```bash
 mv rofi/themes/* ~/.local/share/rofi/themes/
 ```
-
-# 📝 Customizations
-
-- BSPWM: Contains window rules, gaps, and keybindings.(the config is kinda messy though). 
-- Picom: Custom settings for blur, shadows, and animations,also includes a custom config tuned for performance while not sacrificing on the aesthetics sector.
-
-- Polybar: Status bar configuration for system monitoring and workspace management(very minimal).
-
-- Rofi: Custom themes and configurations to match the desktop aesthetic.
-
-- SXHKD: Keybindings for managing windows and launching applications.
-
-- Kitty: Terminal emulator settings with a custom theme for transparency and font.
-
-
  
