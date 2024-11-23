@@ -12,9 +12,15 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 
 ## 📸 Screenshots
 
+![Desktop](./desktop.png)
+
 ![Terminal Preview](./term.png)
 
 ![Tiling Preview](./tiled.png)
+
+![Tilling 2](./2.png)
+
+![Tilling 3](./3.png)
 
 ---
 
