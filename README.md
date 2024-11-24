@@ -46,6 +46,7 @@ dotfiles/
 ├── neofetch/            # Neofetch settings for system info
 └── kitty/               # Kitty terminal configuration
 ```
+
 ## 🛠️ Installation Instructions
 -----------------------------
 
