@@ -14,17 +14,17 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 
 ![Desktop](./desktop.png)
 
-![Terminal Preview](./term.png)
+![Terminal ](./term.png)
 
-![Tiling Preview](./tiled.png)
+![Tiling Preview 1](./tiled.png)
 
-![Tilling 2](./2.png)
+![Tiling Preview 2](./2.png)
 
-![Tilling 3](./3.png)
+![Tilling Preview 3](./3.png)
 
 ---
 
-## ➕Dipendencies
+## ➕Dipendencies                       
 
 - **Jet Brains Mono Nerd Font**
 - **Kitty Terminal**
@@ -37,16 +37,15 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 
 ```plaintext
 dotfiles/
-├── bspwm/               # BSPWM configuration files
-├── picom/               # Picom configuration
-├── polybar/             # Polybar settings and modules
-├── rofi/                # Rofi configuration and themes
-│   └── themes/          # Custom Rofi themes
-├── sxhkd/               # SXHKD keybindings
-├── neofetch/            # Neofetch settings for system info
-└── kitty/               # Kitty terminal configuration
+├── bspwm/  
+├── picom/            
+├── polybar/        
+├── rofi/                
+│   └── themes/          
+├── sxhkd/             
+├── neofetch/           
+└── kitty/               
 ```
-
 ## 🛠️ Installation Instructions
 -----------------------------
 
