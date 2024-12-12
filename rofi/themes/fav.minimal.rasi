@@ -1,0 +1,94 @@
+* {
+    bg-col: #1e1e2e;           /* Mocha Base */
+    selected-col: #a89abb;     /* Mocha Blue for selection highlight */
+    fg-col: #cdd6f4;           /* Mocha Text */
+    fg-col2: #f38ba8;          /* Mocha Pink for selected text */
+    grey: #6c7086;             /* Mocha Overlay for muted text */
+
+    width: 400; /* Adjust width to match the image */
+    font: "JetBrainsMono Nerd Font Bold 12"; /* Adjust font size for a compact look */
+}
+
+element-text, element-icon, mode-switcher {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+window {
+    height: 200px; /* Adjusted to fit about 5-6 items */
+    border: 2px;
+    border-color: #a89abb; 
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    children: [entry];
+    background-color: @bg-col;
+    border-radius: 0px;
+    padding: 5px 0px 3px 0px; /* Trimmed padding for a shorter input bar */
+}
+
+entry {
+    padding: 1px 5px; /* Reduced top padding for a more compact input bar */
+    margin: 1px 0px 0px 0px;
+    text-color: @fg-col;
+    background-color: @bg-col;
+}
+
+listview {
+    border: 0px;
+    padding: 0px;
+    margin: 3px 0px 0px 0px; /* Slightly reduced margin at the bottom */
+    columns: 1; /* Single column */
+    lines: 8; /* Enough lines to fit list entries */
+    background-color: @bg-col;
+    spacing: 0px; /* No spacing between elements */
+}
+
+element {
+    padding: 2px 5px; /* Reduced padding around elements */
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: @bg-col;
+    margin: 0px; /* Removed extra padding for a closer fit */
+}
+
+mode-switcher {
+    spacing: 0;
+}
+
+button {
+    padding: 5px;
+    background-color: @bg-col;
+    text-color: @grey;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+
+button selected {
+    background-color: @bg-col;
+    text-color: @selected-col;
+}
+
+message {
+    background-color: @bg-col;
+    margin: 1px;
+    padding: 1px;
+    border-radius: 3px;
+}
+
+textbox {
+    padding: 4px;
+    margin: 0px 0px 0px 0px;
+    text-color: @fg-col;
+    background-color: @bg-col;
+}
+

@@ -1,12 +1,12 @@
 * {
     bg-col: #1e1e2e;           /* Mocha Base */
-    selected-col: #a89abb;     /* Mocha Blue for selection highlight */
+    selected-col: #a9a776;     /* Mocha Blue for selection highlight */
     fg-col: #cdd6f4;           /* Mocha Text */
     fg-col2: #f38ba8;          /* Mocha Pink for selected text */
     grey: #6c7086;             /* Mocha Overlay for muted text */
 
     width: 400; /* Adjust width to match the image */
-    font: "JetBrainsMono Nerd Font 12"; /* Adjust font size for a compact look */
+    font: "JetBrainsMono Nerd Font Bold 12"; /* Adjust font size for a compact look */
 }
 
 element-text, element-icon, mode-switcher {
@@ -17,7 +17,7 @@ element-text, element-icon, mode-switcher {
 window {
     height: 200px; /* Adjusted to fit about 5-6 items */
     border: 2px;
-    border-color: #a89abb; 
+    border-color: #a9a776; 
     background-color: @bg-col;
 }
 
