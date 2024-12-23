@@ -116,7 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PS1='\[\e[32m\]\w  \[\e[0m\]'
+PS1='\[\e[1;37m\]╭─\[\e[0;36m\] \w\n\[\e[1;37m\]╰─❱ '
+
+
+#PS1='\[\e[32m\]\w  \[\e[0m\]'
 
 alias icat="kitty +kitten icat"
 
@@ -126,8 +129,8 @@ alias r='ranger'
 
 alias clock='tty-clock -c -C 2 -s'
 
-alias anime='/home/user/Downloads/cloning/ani-cli/ani-cli'
+alias anime='/home/user/scripts/ani-cli/ani-cli'
 
-#zsh
+alias fcat='fzf --preview="cat {}"'
 
 #neofetch

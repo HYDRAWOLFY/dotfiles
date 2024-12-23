@@ -10,6 +10,12 @@ super + Return
 #alt + @space
 #	dmenu_run
 
+@Print
+  /home/user/scripts/screenshot
+
+super + @Print
+  /home/user/scripts/screenshot select
+
 alt + @space
         rofi -show drun -modi drun,run
 
