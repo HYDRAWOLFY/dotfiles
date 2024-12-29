@@ -116,10 +116,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
+##----------PROMPT-CUSTOMIZATION-------------##
+
 PS1='\[\e[1;37m\]╭─\[\e[0;36m\] \w\n\[\e[1;37m\]╰─❱ '
 
-
 #PS1='\[\e[32m\]\w  \[\e[0m\]'
+
+##----------------ALIAS------------------##
 
 alias icat="kitty +kitten icat"
 
@@ -127,10 +130,19 @@ alias v='nvim'
 
 alias r='ranger'
 
-alias clock='tty-clock -c -C 2 -s'
+#add a "-s" at the end to show seconds
+alias clock='tty-clock -c -C 2'
 
 alias anime='/home/user/scripts/ani-cli/ani-cli'
 
 alias fcat='fzf --preview="cat {}"'
+
+alias projects="cd ~/Documents/Projects"
+
+alias cloning="cd ~/Downloads/cloning/"
+
+##----------------EXPORT-------------------##
+
+export GTK_USE_PORTAL=1
 
 #neofetch
