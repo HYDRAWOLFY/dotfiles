@@ -25,7 +25,7 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 ---
 
 ## ➕Dipendencies                       
-
+- **BSPWM(Ofcouse...)**
 - **Jet Brains Mono Nerd Font**
 - **Kitty Terminal**
 - **Rofi**
