@@ -32,4 +32,4 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 - **Polybar**
 
 ---
-
+#### You're free to customize my config however you like! :D
