@@ -118,7 +118,9 @@ fi
 
 ##----------PROMPT-CUSTOMIZATION-------------##
 
-PS1='\[\e[1;37m\]╭─\[\e[0;36m\] \w\n\[\e[1;37m\]╰─❱ '
+PS1='\[\033[34m\]\w\n\[\033[32m\]➜ \[\e[1;37m\]\[\033[0m\]\[\e[1;37m\]'
+
+#PS1='\[\e[1;37m\]╭─\[\e[0;36m\] \w\n\[\e[1;37m\]╰─❱ '
 
 #PS1='\[\e[32m\]\w  \[\e[0m\]'
 
@@ -140,6 +142,8 @@ alias fcat='fzf --preview="cat {}"'
 alias projects="cd ~/Documents/Projects"
 
 alias cloning="cd ~/Downloads/cloning/"
+
+alias discord="~/scripts/discordo"
 
 ##----------------EXPORT-------------------##
 
