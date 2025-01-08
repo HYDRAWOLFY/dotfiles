@@ -147,6 +147,10 @@ alias discord="~/scripts/discordo"
 
 ##----------------EXPORT-------------------##
 
+export PATH=$PATH:~/scripts/
+
 export GTK_USE_PORTAL=1
+
+export terminal=kitty
 
 #neofetch
