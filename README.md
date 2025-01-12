@@ -30,6 +30,11 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 - **Kitty Terminal**
 - **Rofi**
 - **Polybar**
+---
+## Installation
 
+I mean if u just copy the stuff to your ```~/config/``` folder and your good to go!
 ---
 #### You're free to customize my config however you like! :D
+
+
