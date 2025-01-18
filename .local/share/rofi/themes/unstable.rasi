@@ -1,9 +1,9 @@
 * {
-    bg-col: #000812;           /* Mocha Base */
-    selected-col: #a89984;     /* Mocha Blue for selection highlight */
-    fg-col: #cdd6f4;           /* Mocha Text */
-    fg-col2: #f38ba8;          /* Mocha Pink for selected text */
-    grey: #6c7086;             /* Mocha Overlay for muted text */
+    bg-col: #0f0f0f;           /* Mountain Base */
+    selected-col:#a89984;     /* custom color for selection highlight */
+    fg-col: #cdd6f4;           /*  Text */
+    fg-col2: #f38ba8;          /* selected text */
+    grey: #6c7086;             /* Overlay for muted text */
 
     width: 400; /* Adjust width to match the image */
     font: "JetBrainsMono Nerd Font Bold 12"; /* Adjust font size for a compact look */

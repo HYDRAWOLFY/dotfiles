@@ -1,6 +1,6 @@
 * {
     bg-col: #1e1e2e;           /* Mocha Base */
-    selected-col: #a9a776;     /* Mocha Blue for selection highlight */
+    selected-col: #a89984;     /* Mocha Blue for selection highlight */
     fg-col: #cdd6f4;           /* Mocha Text */
     fg-col2: #f38ba8;          /* Mocha Pink for selected text */
     grey: #6c7086;             /* Mocha Overlay for muted text */
@@ -17,7 +17,7 @@ element-text, element-icon, mode-switcher {
 window {
     height: 200px; /* Adjusted to fit about 5-6 items */
     border: 2px;
-    border-color: #a9a776; 
+    border-color: #a89984; 
     background-color: @bg-col;
 }
 

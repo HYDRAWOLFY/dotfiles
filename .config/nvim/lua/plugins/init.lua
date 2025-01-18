@@ -13,11 +13,11 @@ return {
     end,
   },
     
-  {
-    'tribela/transparent.nvim',
-    event = 'VimEnter',
-    config = true,
-  },
+--  {
+--    'tribela/transparent.nvim',
+--    event = 'VimEnter',
+--    config = true,
+--  },
 
   {
     "nvim-tree/nvim-tree.lua",
