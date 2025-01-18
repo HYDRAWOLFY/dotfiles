@@ -133,7 +133,7 @@ alias v='nvim'
 alias r='ranger'
 
 #add a "-s" at the end to show seconds
-alias clock='tty-clock -c -C 2'
+alias clock='tty-clock -c -C 7'
 
 alias anime='/home/user/scripts/ani-cli/ani-cli'
 
@@ -145,10 +145,9 @@ alias cloning="cd ~/Downloads/cloning/"
 
 alias discord="~/scripts/discordo"
 
+alias apt-history="cat /var/log/apt/history.log"
+
 ##----------------EXPORT-------------------##
-
-export PATH=$PATH:~/scripts/
-
 export GTK_USE_PORTAL=1
 
 export terminal=kitty
