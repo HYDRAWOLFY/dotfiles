@@ -1,5 +1,5 @@
 
-Welcome to my personal dotfiles repository! This setup is designed to go hand in hand with my workflow needs,with the followingtools:
+Welcome to my personal dotfiles repository! This setup is designed to go hand in hand with my workflow needs,with the following tools:
 
 - **Window Manager**: BSPWM
 - **Compositor**: Picom
