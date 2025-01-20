@@ -1,16 +1,21 @@
 
-Welcome to my personal dotfiles repository! This setup is designed to create a clean and efficient workflow with the following tools:
+Welcome to my personal dotfiles repository! This setup is designed to go hand in hand with my workflow needs,with the followingtools:
 
 - **Window Manager**: BSPWM
 - **Compositor**: Picom
 - **File Manager**: Thunar/Ranger
 - **Application Launcher**: Rofi
+- **Text Editor:** Neovim(Mountain Theme)
 - **Top Bar**: Polybar
-- **Terminal**: Kitty
+- **Terminal**: Kitty(Modified Catppuccin Mocha Theme)
+- **PDF Reader**: Zathura(Gruvbox Theme)
+- **Notification Daemon**: none(I don't use one cause i don't need one.)
+- **Fetch Application**: Neofetch
+- **Music Player**: Cmus(Catppuccin Theme)
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Desktop](./desktop.png)
 
@@ -24,17 +29,18 @@ Welcome to my personal dotfiles repository! This setup is designed to create a c
 
 ---
 
-## ➕Dipendencies                       
-- **BSPWM(Ofcouse...)**
+## Prerequisites
+
+- **BSPWM**
 - **Jet Brains Mono Nerd Font**
 - **Kitty Terminal**
 - **Rofi**
 - **Polybar**
+
 ---
 ## Installation
 
-I mean if u just copy the stuff to your ```~/config/``` folder and your good to go!
----
-#### You're free to customize my config however you like! :D
+- Copy the files inside the .config directory to your system's .config directory
+- Move the files located in ```.local/share/rofi``` to your systems ```~/.local/share/``` directory.
 
-
+--- 
