@@ -39,8 +39,8 @@ Welcome to my personal dotfiles repository! This setup is designed to go hand in
 
 ---
 ## Installation
-
-- Copy the files inside the .config directory to your system's .config directory
+- Clone the git repository,```git clone https://github.com/HYDRAWOLFY/dotfiles.git```
+- Copy the files inside the ```.config``` directory to your system's ```~/.config``` directory
 - Move the files located in ```.local/share/rofi``` to your systems ```~/.local/share/``` directory.
 
 --- 
