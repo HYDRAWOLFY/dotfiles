@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Night Light OFF
+Comment=Deactivate Redshift and reset screen
+Exec=redshift -x
+Terminal=false
+Type=Application
+Icon=weather-clear
+Categories=Utility;
+

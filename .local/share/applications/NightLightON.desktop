@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Night Light ON
+Comment=Activate Redshift with warmer colors
+Exec=redshift -O 5000
+Terminal=false
+Type=Application
+Icon=weather-clear-night
+Categories=Utility;
