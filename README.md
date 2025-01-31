@@ -36,7 +36,7 @@ Welcome to my personal dotfiles repository! This setup is designed to go hand in
 - **Kitty Terminal**
 - **Rofi**
 - **Polybar**
-- **picom**
+- **Picom**
 ---
 ## Installation
 - Clone the git repository,```git clone https://github.com/HYDRAWOLFY/dotfiles.git```
